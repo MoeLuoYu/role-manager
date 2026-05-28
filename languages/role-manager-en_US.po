@@ -1,0 +1,469 @@
+# English translation for Role Manager plugin.
+# Copyright (C) 2026 MoeLuoYu
+# This file is distributed under the GPLv2 or later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: Role Manager 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/MoeLuoYu/role-manager/issues\n"
+"POT-Creation-Date: 2026-05-28 17:00+0800\n"
+"PO-Revision-Date: 2026-05-28 17:00+0800\n"
+"Last-Translator: MoeLuoYu\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Manual\n"
+
+msgid "角色管理"
+msgstr "Role Manager"
+
+msgid "角色"
+msgstr "Roles"
+
+msgid "操作日志"
+msgstr "Activity Log"
+
+msgid "设置"
+msgstr "Settings"
+
+msgid "确定要删除此角色吗？此操作不可恢复。"
+msgstr "Are you sure you want to delete this role? This action cannot be undone."
+
+msgid "确定要重置此角色的名称吗？"
+msgstr "Are you sure you want to reset this role name?"
+
+msgid "确定要清空所有日志吗？"
+msgstr "Are you sure you want to clear all logs?"
+
+msgid "保存中..."
+msgstr "Saving..."
+
+msgid "已保存"
+msgstr "Saved"
+
+msgid "保存"
+msgstr "Save"
+
+msgid "保存权限"
+msgstr "Save Capabilities"
+
+msgid "保存设置"
+msgstr "Save Settings"
+
+msgid "创建角色"
+msgstr "Create Role"
+
+msgid "确认删除"
+msgstr "Confirm Delete"
+
+msgid "操作失败"
+msgstr "Operation failed"
+
+msgid "请输入角色标识以确认删除："
+msgstr "Please enter the role slug to confirm deletion:"
+
+msgid "输入的角色标识不匹配"
+msgstr "The entered role slug does not match"
+
+msgid "无法修改WordPress默认角色的权限"
+msgstr "Cannot modify capabilities of WordPress default roles"
+
+msgid "请填写角色标识和显示名称"
+msgstr "Please fill in the role slug and display name"
+
+msgid "继承"
+msgstr "Inherited"
+
+msgid "受限"
+msgstr "Restricted"
+
+msgid "继承自: %s"
+msgstr "Inherited from: %s"
+
+msgid "权限不足"
+msgstr "Insufficient permissions"
+
+msgid "角色标识无效"
+msgstr "Invalid role slug"
+
+msgid "角色名称已更新"
+msgstr "Role name has been updated"
+
+msgid "角色名称已重置"
+msgstr "Role name has been reset"
+
+msgid "角色标识和名称不能为空"
+msgstr "Role slug and name cannot be empty"
+
+msgid "无效的JSON数据"
+msgstr "Invalid JSON data"
+
+msgid "权限数量超过限制"
+msgstr "Number of capabilities exceeds the limit"
+
+msgid "角色创建成功"
+msgstr "Role created successfully"
+
+msgid "确认输入不匹配，删除操作已取消"
+msgstr "Confirmation input does not match, deletion cancelled"
+
+msgid "角色已删除"
+msgstr "Role deleted"
+
+msgid "权限已更新"
+msgstr "Capabilities updated"
+
+msgid "角色不存在"
+msgstr "Role does not exist"
+
+msgid "日志已清空"
+msgstr "Logs cleared"
+
+msgid "受限权限已更新"
+msgstr "Restricted capabilities updated"
+
+msgid "现有角色"
+msgstr "Existing Roles"
+
+msgid "管理WordPress站点所有角色。WordPress默认角色只能修改显示名称，无法编辑权限或删除。"
+msgstr "Manage all roles on your WordPress site. WordPress default roles can only have their display names changed; capabilities cannot be edited and roles cannot be deleted."
+
+msgid "角色标识"
+msgstr "Role Slug"
+
+msgid "显示名称"
+msgstr "Display Name"
+
+msgid "类型"
+msgstr "Type"
+
+msgid "用户数"
+msgstr "Users"
+
+msgid "操作"
+msgstr "Actions"
+
+msgid "已改名"
+msgstr "Renamed"
+
+msgid "继承自 %s"
+msgstr "Inherited from %s"
+
+msgid "默认角色"
+msgstr "Default Role"
+
+msgid "自定义角色"
+msgstr "Custom Role"
+
+msgid "其他角色"
+msgstr "Other Role"
+
+msgid "改名"
+msgstr "Rename"
+
+msgid "重置名称"
+msgstr "Reset Name"
+
+msgid "编辑权限"
+msgstr "Edit Capabilities"
+
+msgid "删除"
+msgstr "Delete"
+
+msgid "创建新角色"
+msgstr "Create New Role"
+
+msgid "例如: custom_editor"
+msgstr "e.g.: custom_editor"
+
+msgid "只能使用小写字母、数字和下划线"
+msgstr "Only lowercase letters, numbers, and underscores are allowed"
+
+msgid "例如: 自定义编辑"
+msgstr "e.g.: Custom Editor"
+
+msgid "父角色（可选）"
+msgstr "Parent Role (optional)"
+
+msgid "无（不继承任何角色）"
+msgstr "None (no inheritance)"
+
+msgid "选择父角色后，新角色将自动继承父角色的所有权限"
+msgstr "When a parent role is selected, the new role will automatically inherit all capabilities from the parent"
+
+msgid "说明"
+msgstr "Legend"
+
+msgid "WordPress默认角色，只能修改显示名称"
+msgstr "WordPress default role, display name can be changed only"
+
+msgid "通过本插件创建的角色"
+msgstr "Role created by this plugin"
+
+msgid "其他来源的角色"
+msgstr "Role from other sources"
+
+msgid "受限权限（无法分配）"
+msgstr "Restricted capability (cannot be assigned)"
+
+msgid "修改角色名称"
+msgstr "Rename Role"
+
+msgid "新名称"
+msgstr "New Name"
+
+msgid "取消"
+msgstr "Cancel"
+
+msgid "确认删除角色"
+msgstr "Confirm Role Deletion"
+
+msgid "警告：此操作不可恢复！"
+msgstr "Warning: This action cannot be undone!"
+
+msgid "删除角色后，该角色的所有用户将被转移到默认角色。"
+msgstr "After deleting a role, all users with that role will be reassigned to the default role."
+
+msgid "请输入角色标识确认删除"
+msgstr "Enter the role slug to confirm deletion"
+
+msgid "角色标识："
+msgstr "Role slug:"
+
+msgid "编辑角色权限"
+msgstr "Edit Role Capabilities"
+
+msgid "搜索权限..."
+msgstr "Search capabilities..."
+
+msgid "继承的权限来自父角色，无法编辑。如需修改，请编辑父角色的权限。"
+msgstr "Inherited capabilities come from the parent role and cannot be edited. To modify them, edit the parent role's capabilities."
+
+msgid "标记的权限已被限制分配，无法通过本插件添加。"
+msgstr "Marked capabilities are restricted and cannot be added through this plugin."
+
+msgid "权限"
+msgstr "Capability"
+
+msgid "状态"
+msgstr "Status"
+
+msgid "受限权限"
+msgstr "Restricted Capabilities"
+
+msgid "以下权限将被限制分配给任何角色。这些权限通常只应授予管理员。"
+msgstr "The following capabilities will be restricted from being assigned to any role. These capabilities should typically only be granted to administrators."
+
+msgid "关于受限权限"
+msgstr "About Restricted Capabilities"
+
+msgid "受限权限功能可以防止非管理员用户通过本插件为角色分配危险权限。"
+msgstr "The restricted capabilities feature prevents non-admin users from assigning dangerous capabilities to roles through this plugin."
+
+msgid "默认受限的权限包括："
+msgstr "Default restricted capabilities include:"
+
+msgid "管理站点选项"
+msgstr "Manage site options"
+
+msgid "管理网络"
+msgstr "Manage network"
+
+msgid "管理站点"
+msgstr "Manage sites"
+
+msgid "激活插件"
+msgstr "Activate plugins"
+
+msgid "编辑插件"
+msgstr "Edit plugins"
+
+msgid "编辑主题"
+msgstr "Edit themes"
+
+msgid "编辑文件"
+msgstr "Edit files"
+
+msgid "更新插件"
+msgstr "Update plugins"
+
+msgid "删除插件"
+msgstr "Delete plugins"
+
+msgid "安装插件"
+msgstr "Install plugins"
+
+msgid "更新主题"
+msgstr "Update themes"
+
+msgid "删除主题"
+msgstr "Delete themes"
+
+msgid "安装主题"
+msgstr "Install themes"
+
+msgid "更新核心"
+msgstr "Update core"
+
+msgid "导出内容"
+msgstr "Export content"
+
+msgid "导入内容"
+msgstr "Import content"
+
+msgid "创建用户"
+msgstr "Create users"
+
+msgid "删除用户"
+msgstr "Delete users"
+
+msgid "提升用户"
+msgstr "Promote users"
+
+msgid "移除用户"
+msgstr "Remove users"
+
+msgid "未过滤上传"
+msgstr "Unfiltered uploads"
+
+msgid "未过滤HTML"
+msgstr "Unfiltered HTML"
+
+msgid "阅读"
+msgstr "Read"
+
+msgid "编辑文章"
+msgstr "Edit posts"
+
+msgid "编辑他人文章"
+msgstr "Edit others' posts"
+
+msgid "编辑已发布文章"
+msgstr "Edit published posts"
+
+msgid "编辑私密文章"
+msgstr "Edit private posts"
+
+msgid "发布文章"
+msgstr "Publish posts"
+
+msgid "删除文章"
+msgstr "Delete posts"
+
+msgid "删除他人文章"
+msgstr "Delete others' posts"
+
+msgid "删除已发布文章"
+msgstr "Delete published posts"
+
+msgid "删除私密文章"
+msgstr "Delete private posts"
+
+msgid "阅读私密文章"
+msgstr "Read private posts"
+
+msgid "编辑页面"
+msgstr "Edit pages"
+
+msgid "编辑他人页面"
+msgstr "Edit others' pages"
+
+msgid "编辑已发布页面"
+msgstr "Edit published pages"
+
+msgid "编辑私密页面"
+msgstr "Edit private pages"
+
+msgid "发布页面"
+msgstr "Publish pages"
+
+msgid "删除页面"
+msgstr "Delete pages"
+
+msgid "删除他人页面"
+msgstr "Delete others' pages"
+
+msgid "删除已发布页面"
+msgstr "Delete published pages"
+
+msgid "删除私密页面"
+msgstr "Delete private pages"
+
+msgid "阅读私密页面"
+msgstr "Read private pages"
+
+msgid "上传文件"
+msgstr "Upload files"
+
+msgid "审核评论"
+msgstr "Moderate comments"
+
+msgid "管理分类"
+msgstr "Manage categories"
+
+msgid "管理链接"
+msgstr "Manage links"
+
+msgid "角色不能继承自身"
+msgstr "A role cannot inherit from itself"
+
+msgid "父角色不存在"
+msgstr "Parent role does not exist"
+
+msgid "检测到循环继承"
+msgstr "Circular inheritance detected"
+
+msgid "不能将父角色设为子角色"
+msgstr "Cannot set a parent role as a child role"
+
+msgid "重命名角色"
+msgstr "Rename role"
+
+msgid "重置角色名称"
+msgstr "Reset role name"
+
+msgid "更新权限"
+msgstr "Update capabilities"
+
+msgid "查看角色管理操作的历史记录。"
+msgstr "View the history of role management operations."
+
+msgid "清空日志"
+msgstr "Clear Logs"
+
+msgid "暂无操作日志。"
+msgstr "No activity logs yet."
+
+msgid "时间"
+msgstr "Time"
+
+msgid "操作者"
+msgstr "User"
+
+msgid "详情"
+msgstr "Details"
+
+msgid "IP地址"
+msgstr "IP Address"
+
+msgid "未知"
+msgstr "Unknown"
+
+msgid "角色名称不能为空"
+msgstr "Role name cannot be empty"
+
+msgid "角色标识只能使用小写字母、数字和下划线"
+msgstr "Role slug can only contain lowercase letters, numbers, and underscores"
+
+msgid "该角色标识已存在"
+msgstr "This role slug already exists"
+
+msgid "创建角色失败"
+msgstr "Failed to create role"
+
+msgid "无法删除WordPress默认角色"
+msgstr "Cannot delete WordPress default roles"
+
+msgid "无效的输入"
+msgstr "Invalid input"

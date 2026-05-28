@@ -1,0 +1,469 @@
+# Chinese (Taiwan) translation for Role Manager plugin.
+# Copyright (C) 2026 MoeLuoYu
+# This file is distributed under the GPLv2 or later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: Role Manager 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/MoeLuoYu/role-manager/issues\n"
+"POT-Creation-Date: 2026-05-28 17:00+0800\n"
+"PO-Revision-Date: 2026-05-28 17:00+0800\n"
+"Last-Translator: MoeLuoYu\n"
+"Language-Team: Chinese (Taiwan)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Manual\n"
+
+msgid "角色管理"
+msgstr "角色管理"
+
+msgid "角色"
+msgstr "角色"
+
+msgid "操作日志"
+msgstr "操作日誌"
+
+msgid "设置"
+msgstr "設定"
+
+msgid "确定要删除此角色吗？此操作不可恢复。"
+msgstr "確定要刪除此角色嗎？此操作無法復原。"
+
+msgid "确定要重置此角色的名称吗？"
+msgstr "確定要重置此角色的名稱嗎？"
+
+msgid "确定要清空所有日志吗？"
+msgstr "確定要清空所有日誌嗎？"
+
+msgid "保存中..."
+msgstr "儲存中..."
+
+msgid "已保存"
+msgstr "已儲存"
+
+msgid "保存"
+msgstr "儲存"
+
+msgid "保存权限"
+msgstr "儲存權限"
+
+msgid "保存设置"
+msgstr "儲存設定"
+
+msgid "创建角色"
+msgstr "新增角色"
+
+msgid "确认删除"
+msgstr "確認刪除"
+
+msgid "操作失败"
+msgstr "操作失敗"
+
+msgid "请输入角色标识以确认删除："
+msgstr "請輸入角色代碼以確認刪除："
+
+msgid "输入的角色标识不匹配"
+msgstr "輸入的角色代碼不符"
+
+msgid "无法修改WordPress默认角色的权限"
+msgstr "無法修改WordPress預設角色的權限"
+
+msgid "请填写角色标识和显示名称"
+msgstr "請填寫角色代碼和顯示名稱"
+
+msgid "继承"
+msgstr "繼承"
+
+msgid "受限"
+msgstr "受限"
+
+msgid "继承自: %s"
+msgstr "繼承自: %s"
+
+msgid "权限不足"
+msgstr "權限不足"
+
+msgid "角色标识无效"
+msgstr "角色代碼無效"
+
+msgid "角色名称已更新"
+msgstr "角色名稱已更新"
+
+msgid "角色名称已重置"
+msgstr "角色名稱已重置"
+
+msgid "角色标识和名称不能为空"
+msgstr "角色代碼和名稱不能為空"
+
+msgid "无效的JSON数据"
+msgstr "無效的JSON資料"
+
+msgid "权限数量超过限制"
+msgstr "權限數量超過限制"
+
+msgid "角色创建成功"
+msgstr "角色新增成功"
+
+msgid "确认输入不匹配，删除操作已取消"
+msgstr "確認輸入不符，刪除操作已取消"
+
+msgid "角色已删除"
+msgstr "角色已刪除"
+
+msgid "权限已更新"
+msgstr "權限已更新"
+
+msgid "角色不存在"
+msgstr "角色不存在"
+
+msgid "日志已清空"
+msgstr "日誌已清空"
+
+msgid "受限权限已更新"
+msgstr "受限權限已更新"
+
+msgid "现有角色"
+msgstr "現有角色"
+
+msgid "管理WordPress站点所有角色。WordPress默认角色只能修改显示名称，无法编辑权限或删除。"
+msgstr "管理WordPress網站所有角色。WordPress預設角色只能修改顯示名稱，無法編輯權限或刪除。"
+
+msgid "角色标识"
+msgstr "角色代碼"
+
+msgid "显示名称"
+msgstr "顯示名稱"
+
+msgid "类型"
+msgstr "類型"
+
+msgid "用户数"
+msgstr "使用者數"
+
+msgid "操作"
+msgstr "操作"
+
+msgid "已改名"
+msgstr "已改名"
+
+msgid "继承自 %s"
+msgstr "繼承自 %s"
+
+msgid "默认角色"
+msgstr "預設角色"
+
+msgid "自定义角色"
+msgstr "自訂角色"
+
+msgid "其他角色"
+msgstr "其他角色"
+
+msgid "改名"
+msgstr "改名"
+
+msgid "重置名称"
+msgstr "重置名稱"
+
+msgid "编辑权限"
+msgstr "編輯權限"
+
+msgid "删除"
+msgstr "刪除"
+
+msgid "创建新角色"
+msgstr "新增角色"
+
+msgid "例如: custom_editor"
+msgstr "例如: custom_editor"
+
+msgid "只能使用小写字母、数字和下划线"
+msgstr "只能使用小寫字母、數字和底線"
+
+msgid "例如: 自定义编辑"
+msgstr "例如: 自訂編輯者"
+
+msgid "父角色（可选）"
+msgstr "父角色（選填）"
+
+msgid "无（不继承任何角色）"
+msgstr "無（不繼承任何角色）"
+
+msgid "选择父角色后，新角色将自动继承父角色的所有权限"
+msgstr "選擇父角色後，新角色將自動繼承父角色的所有權限"
+
+msgid "说明"
+msgstr "說明"
+
+msgid "WordPress默认角色，只能修改显示名称"
+msgstr "WordPress預設角色，只能修改顯示名稱"
+
+msgid "通过本插件创建的角色"
+msgstr "透過本外掛新增的角色"
+
+msgid "其他来源的角色"
+msgstr "其他來源的角色"
+
+msgid "受限权限（无法分配）"
+msgstr "受限權限（無法分配）"
+
+msgid "修改角色名称"
+msgstr "修改角色名稱"
+
+msgid "新名称"
+msgstr "新名稱"
+
+msgid "取消"
+msgstr "取消"
+
+msgid "确认删除角色"
+msgstr "確認刪除角色"
+
+msgid "警告：此操作不可恢复！"
+msgstr "警告：此操作無法復原！"
+
+msgid "删除角色后，该角色的所有用户将被转移到默认角色。"
+msgstr "刪除角色後，該角色的所有使用者將被轉移至預設角色。"
+
+msgid "请输入角色标识确认删除"
+msgstr "請輸入角色代碼確認刪除"
+
+msgid "角色标识："
+msgstr "角色代碼："
+
+msgid "编辑角色权限"
+msgstr "編輯角色權限"
+
+msgid "搜索权限..."
+msgstr "搜尋權限..."
+
+msgid "继承的权限来自父角色，无法编辑。如需修改，请编辑父角色的权限。"
+msgstr "繼承的權限來自父角色，無法編輯。如需修改，請編輯父角色的權限。"
+
+msgid "标记的权限已被限制分配，无法通过本插件添加。"
+msgstr "標記的權限已被限制分配，無法透過本外掛新增。"
+
+msgid "权限"
+msgstr "權限"
+
+msgid "状态"
+msgstr "狀態"
+
+msgid "受限权限"
+msgstr "受限權限"
+
+msgid "以下权限将被限制分配给任何角色。这些权限通常只应授予管理员。"
+msgstr "以下權限將被限制分配給任何角色。這些權限通常只應授予管理員。"
+
+msgid "关于受限权限"
+msgstr "關於受限權限"
+
+msgid "受限权限功能可以防止非管理员用户通过本插件为角色分配危险权限。"
+msgstr "受限權限功能可以防止非管理員使用者透過本外掛為角色分配危險權限。"
+
+msgid "默认受限的权限包括："
+msgstr "預設受限的權限包括："
+
+msgid "管理站点选项"
+msgstr "管理網站選項"
+
+msgid "管理网络"
+msgstr "管理網路"
+
+msgid "管理站点"
+msgstr "管理網站"
+
+msgid "激活插件"
+msgstr "啟用外掛"
+
+msgid "编辑插件"
+msgstr "編輯外掛"
+
+msgid "编辑主题"
+msgstr "編輯主題"
+
+msgid "编辑文件"
+msgstr "編輯檔案"
+
+msgid "更新插件"
+msgstr "更新外掛"
+
+msgid "删除插件"
+msgstr "刪除外掛"
+
+msgid "安装插件"
+msgstr "安裝外掛"
+
+msgid "更新主题"
+msgstr "更新主題"
+
+msgid "删除主题"
+msgstr "刪除主題"
+
+msgid "安装主题"
+msgstr "安裝主題"
+
+msgid "更新核心"
+msgstr "更新核心"
+
+msgid "导出内容"
+msgstr "匯出內容"
+
+msgid "导入内容"
+msgstr "匯入內容"
+
+msgid "创建用户"
+msgstr "新增使用者"
+
+msgid "删除用户"
+msgstr "刪除使用者"
+
+msgid "提升用户"
+msgstr "提升使用者"
+
+msgid "移除用户"
+msgstr "移除使用者"
+
+msgid "未过滤上传"
+msgstr "未過濾上傳"
+
+msgid "未过滤HTML"
+msgstr "未過濾HTML"
+
+msgid "阅读"
+msgstr "閱讀"
+
+msgid "编辑文章"
+msgstr "編輯文章"
+
+msgid "编辑他人文章"
+msgstr "編輯他人文章"
+
+msgid "编辑已发布文章"
+msgstr "編輯已發佈文章"
+
+msgid "编辑私密文章"
+msgstr "編輯私密文章"
+
+msgid "发布文章"
+msgstr "發佈文章"
+
+msgid "删除文章"
+msgstr "刪除文章"
+
+msgid "删除他人文章"
+msgstr "刪除他人文章"
+
+msgid "删除已发布文章"
+msgstr "刪除已發佈文章"
+
+msgid "删除私密文章"
+msgstr "刪除私密文章"
+
+msgid "阅读私密文章"
+msgstr "閱讀私密文章"
+
+msgid "编辑页面"
+msgstr "編輯頁面"
+
+msgid "编辑他人页面"
+msgstr "編輯他人頁面"
+
+msgid "编辑已发布页面"
+msgstr "編輯已發佈頁面"
+
+msgid "编辑私密页面"
+msgstr "編輯私密頁面"
+
+msgid "发布页面"
+msgstr "發佈頁面"
+
+msgid "删除页面"
+msgstr "刪除頁面"
+
+msgid "删除他人页面"
+msgstr "刪除他人頁面"
+
+msgid "删除已发布页面"
+msgstr "刪除已發佈頁面"
+
+msgid "删除私密页面"
+msgstr "刪除私密頁面"
+
+msgid "阅读私密页面"
+msgstr "閱讀私密頁面"
+
+msgid "上传文件"
+msgstr "上傳檔案"
+
+msgid "审核评论"
+msgstr "審核迴響"
+
+msgid "管理分类"
+msgstr "管理分類"
+
+msgid "管理链接"
+msgstr "管理連結"
+
+msgid "角色不能继承自身"
+msgstr "角色不能繼承自身"
+
+msgid "父角色不存在"
+msgstr "父角色不存在"
+
+msgid "检测到循环继承"
+msgstr "偵測到循環繼承"
+
+msgid "不能将父角色设为子角色"
+msgstr "不能將父角色設為子角色"
+
+msgid "重命名角色"
+msgstr "重新命名角色"
+
+msgid "重置角色名称"
+msgstr "重置角色名稱"
+
+msgid "更新权限"
+msgstr "更新權限"
+
+msgid "查看角色管理操作的历史记录。"
+msgstr "查看角色管理操作的歷史記錄。"
+
+msgid "清空日志"
+msgstr "清空日誌"
+
+msgid "暂无操作日志。"
+msgstr "暫無操作日誌。"
+
+msgid "时间"
+msgstr "時間"
+
+msgid "操作者"
+msgstr "操作者"
+
+msgid "详情"
+msgstr "詳情"
+
+msgid "IP地址"
+msgstr "IP位址"
+
+msgid "未知"
+msgstr "未知"
+
+msgid "角色名称不能为空"
+msgstr "角色名稱不能為空"
+
+msgid "角色标识只能使用小写字母、数字和下划线"
+msgstr "角色代碼只能使用小寫字母、數字和底線"
+
+msgid "该角色标识已存在"
+msgstr "該角色代碼已存在"
+
+msgid "创建角色失败"
+msgstr "新增角色失敗"
+
+msgid "无法删除WordPress默认角色"
+msgstr "無法刪除WordPress預設角色"
+
+msgid "无效的输入"
+msgstr "無效的輸入"

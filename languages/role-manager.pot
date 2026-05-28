@@ -1,0 +1,700 @@
+# Copyright (C) 2026 MoeLuoYu
+# This file is distributed under the MIT license.
+msgid ""
+msgstr ""
+"Project-Id-Version: Role Manager 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/MoeLuoYu/role-manager/issues\n"
+"POT-Creation-Date: 2026-05-28 17:00+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2026-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Manual\n"
+
+#: admin/class-admin.php:35
+#: admin/class-admin.php:46
+#: admin/class-admin.php:47
+msgid "角色管理"
+msgstr ""
+
+#: admin/class-admin.php:36
+msgid "角色"
+msgstr ""
+
+#: admin/class-admin.php:55
+#: admin/class-admin.php:56
+#: admin/views/logs-page.php:14
+msgid "操作日志"
+msgstr ""
+
+#: admin/class-admin.php:64
+#: admin/class-admin.php:65
+#: admin/views/settings-page.php:11
+msgid "设置"
+msgstr ""
+
+#: admin/class-admin.php:96
+msgid "确定要删除此角色吗？此操作不可恢复。"
+msgstr ""
+
+#: admin/class-admin.php:97
+msgid "确定要重置此角色的名称吗？"
+msgstr ""
+
+#: admin/class-admin.php:98
+msgid "确定要清空所有日志吗？"
+msgstr ""
+
+#: admin/class-admin.php:99
+msgid "保存中..."
+msgstr ""
+
+#: admin/class-admin.php:100
+msgid "已保存"
+msgstr ""
+
+#: admin/class-admin.php:101
+#: admin/views/main-page.php:192
+msgid "保存"
+msgstr ""
+
+#: admin/class-admin.php:102
+msgid "保存权限"
+msgstr ""
+
+#: admin/class-admin.php:103
+#: admin/views/settings-page.php:60
+msgid "保存设置"
+msgstr ""
+
+#: admin/class-admin.php:104
+#: admin/views/main-page.php:135
+msgid "创建角色"
+msgstr ""
+
+#: admin/class-admin.php:105
+#: admin/views/main-page.php:226
+msgid "确认删除"
+msgstr ""
+
+#: admin/class-admin.php:106
+msgid "操作失败"
+msgstr ""
+
+#: admin/class-admin.php:107
+msgid "请输入角色标识以确认删除："
+msgstr ""
+
+#: admin/class-admin.php:108
+msgid "输入的角色标识不匹配"
+msgstr ""
+
+#: admin/class-admin.php:109
+msgid "无法修改WordPress默认角色的权限"
+msgstr ""
+
+#: admin/class-admin.php:110
+msgid "请填写角色标识和显示名称"
+msgstr ""
+
+#: admin/class-admin.php:111
+#: admin/views/main-page.php:246
+msgid "继承"
+msgstr ""
+
+#: admin/class-admin.php:112
+msgid "受限"
+msgstr ""
+
+#: admin/class-admin.php:113
+msgid "继承自: %s"
+msgstr ""
+
+#: admin/class-admin.php:134
+#: admin/class-admin.php:164
+#: admin/class-admin.php:186
+#: admin/class-admin.php:234
+#: admin/class-admin.php:267
+#: admin/class-admin.php:311
+#: admin/class-admin.php:334
+#: admin/class-admin.php:345
+#: admin/views/logs-page.php:7
+msgid "权限不足"
+msgstr ""
+
+#: admin/class-admin.php:141
+#: admin/class-admin.php:170
+#: admin/class-admin.php:241
+#: admin/class-admin.php:274
+msgid "角色标识无效"
+msgstr ""
+
+#: admin/class-admin.php:157
+msgid "角色名称已更新"
+msgstr ""
+
+#: admin/class-admin.php:179
+msgid "角色名称已重置"
+msgstr ""
+
+#: admin/class-admin.php:195
+#: includes/class-role-manager.php:95
+msgid "角色标识和名称不能为空"
+msgstr ""
+
+#: admin/class-admin.php:201
+#: admin/class-admin.php:280
+#: admin/class-admin.php:353
+msgid "无效的JSON数据"
+msgstr ""
+
+#: admin/class-admin.php:211
+#: admin/class-admin.php:290
+#: admin/class-admin.php:363
+msgid "权限数量超过限制"
+msgstr ""
+
+#: admin/class-admin.php:227
+msgid "角色创建成功"
+msgstr ""
+
+#: admin/class-admin.php:245
+msgid "确认输入不匹配，删除操作已取消"
+msgstr ""
+
+#: admin/class-admin.php:260
+msgid "角色已删除"
+msgstr ""
+
+#: admin/class-admin.php:304
+msgid "权限已更新"
+msgstr ""
+
+#: admin/class-admin.php:318
+msgid "角色不存在"
+msgstr ""
+
+#: admin/class-admin.php:338
+msgid "日志已清空"
+msgstr ""
+
+#: admin/class-admin.php:376
+msgid "受限权限已更新"
+msgstr ""
+
+#: admin/views/main-page.php:15
+msgid "现有角色"
+msgstr ""
+
+#: admin/views/main-page.php:25
+msgid "管理WordPress站点所有角色。WordPress默认角色只能修改显示名称，无法编辑权限或删除。"
+msgstr ""
+
+#: admin/views/main-page.php:31
+msgid "角色标识"
+msgstr ""
+
+#: admin/views/main-page.php:32
+#: admin/views/main-page.php:117
+msgid "显示名称"
+msgstr ""
+
+#: admin/views/main-page.php:33
+msgid "类型"
+msgstr ""
+
+#: admin/views/main-page.php:34
+msgid "用户数"
+msgstr ""
+
+#: admin/views/main-page.php:35
+#: admin/views/main-page.php:269
+#: admin/views/logs-page.php:36
+msgid "操作"
+msgstr ""
+
+#: admin/views/main-page.php:54
+msgid "已改名"
+msgstr ""
+
+#: admin/views/main-page.php:57
+msgid "继承自 %s"
+msgstr ""
+
+#: admin/views/main-page.php:62
+msgid "默认角色"
+msgstr ""
+
+#: admin/views/main-page.php:64
+msgid "自定义角色"
+msgstr ""
+
+#: admin/views/main-page.php:66
+msgid "其他角色"
+msgstr ""
+
+#: admin/views/main-page.php:76
+msgid "改名"
+msgstr ""
+
+#: admin/views/main-page.php:81
+msgid "重置名称"
+msgstr ""
+
+#: admin/views/main-page.php:87
+msgid "编辑权限"
+msgstr ""
+
+#: admin/views/main-page.php:93
+msgid "删除"
+msgstr ""
+
+#: admin/views/main-page.php:106
+msgid "创建新角色"
+msgstr ""
+
+#: admin/views/main-page.php:113
+msgid "例如: custom_editor"
+msgstr ""
+
+#: admin/views/main-page.php:114
+msgid "只能使用小写字母、数字和下划线"
+msgstr ""
+
+#: admin/views/main-page.php:119
+msgid "例如: 自定义编辑"
+msgstr ""
+
+#: admin/views/main-page.php:122
+msgid "父角色（可选）"
+msgstr ""
+
+#: admin/views/main-page.php:124
+msgid "无（不继承任何角色）"
+msgstr ""
+
+#: admin/views/main-page.php:131
+msgid "选择父角色后，新角色将自动继承父角色的所有权限"
+msgstr ""
+
+#: admin/views/main-page.php:144
+msgid "说明"
+msgstr ""
+
+#: admin/views/main-page.php:150
+msgid "WordPress默认角色，只能修改显示名称"
+msgstr ""
+
+#: admin/views/main-page.php:154
+msgid "通过本插件创建的角色"
+msgstr ""
+
+#: admin/views/main-page.php:158
+msgid "其他来源的角色"
+msgstr ""
+
+#: admin/views/main-page.php:162
+msgid "受限权限（无法分配）"
+msgstr ""
+
+#: admin/views/main-page.php:175
+msgid "修改角色名称"
+msgstr ""
+
+#: admin/views/main-page.php:184
+msgid "新名称"
+msgstr ""
+
+#: admin/views/main-page.php:193
+#: admin/views/main-page.php:227
+msgid "取消"
+msgstr ""
+
+#: admin/views/main-page.php:204
+msgid "确认删除角色"
+msgstr ""
+
+#: admin/views/main-page.php:209
+msgid "警告：此操作不可恢复！"
+msgstr ""
+
+#: admin/views/main-page.php:210
+msgid "删除角色后，该角色的所有用户将被转移到默认角色。"
+msgstr ""
+
+#: admin/views/main-page.php:217
+msgid "请输入角色标识确认删除"
+msgstr ""
+
+#: admin/views/main-page.php:221
+msgid "角色标识："
+msgstr ""
+
+#: admin/views/main-page.php:238
+msgid "编辑角色权限"
+msgstr ""
+
+#: admin/views/main-page.php:251
+#: admin/views/settings-page.php:23
+msgid "搜索权限..."
+msgstr ""
+
+#: admin/views/main-page.php:255
+msgid "继承的权限来自父角色，无法编辑。如需修改，请编辑父角色的权限。"
+msgstr ""
+
+#: admin/views/main-page.php:258
+msgid "标记的权限已被限制分配，无法通过本插件添加。"
+msgstr ""
+
+#: admin/views/main-page.php:268
+msgid "权限"
+msgstr ""
+
+#: admin/views/main-page.php:270
+msgid "状态"
+msgstr ""
+
+#: admin/views/settings-page.php:15
+msgid "受限权限"
+msgstr ""
+
+#: admin/views/settings-page.php:18
+msgid "以下权限将被限制分配给任何角色。这些权限通常只应授予管理员。"
+msgstr ""
+
+#: admin/views/settings-page.php:34
+msgid "说明"
+msgstr ""
+
+#: admin/views/settings-page.php:68
+msgid "关于受限权限"
+msgstr ""
+
+#: admin/views/settings-page.php:71
+msgid "受限权限功能可以防止非管理员用户通过本插件为角色分配危险权限。"
+msgstr ""
+
+#: admin/views/settings-page.php:74
+msgid "默认受限的权限包括："
+msgstr ""
+
+#: admin/views/settings-page.php:77
+msgid "管理站点选项"
+msgstr ""
+
+#: admin/views/settings-page.php:78
+msgid "管理网络"
+msgstr ""
+
+#: admin/views/settings-page.php:79
+msgid "激活插件"
+msgstr ""
+
+#: admin/views/settings-page.php:80
+msgid "编辑插件"
+msgstr ""
+
+#: admin/views/settings-page.php:81
+msgid "编辑主题"
+msgstr ""
+
+#: admin/views/settings-page.php:82
+msgid "安装插件"
+msgstr ""
+
+#: admin/views/settings-page.php:83
+msgid "更新核心"
+msgstr ""
+
+#: admin/views/logs-page.php:17
+msgid "查看角色管理操作的历史记录。"
+msgstr ""
+
+#: admin/views/logs-page.php:22
+msgid "清空日志"
+msgstr ""
+
+#: admin/views/logs-page.php:28
+msgid "暂无操作日志。"
+msgstr ""
+
+#: admin/views/logs-page.php:34
+msgid "时间"
+msgstr ""
+
+#: admin/views/logs-page.php:35
+msgid "操作者"
+msgstr ""
+
+#: admin/views/logs-page.php:37
+msgid "详情"
+msgstr ""
+
+#: admin/views/logs-page.php:38
+msgid "IP地址"
+msgstr ""
+
+#: admin/views/logs-page.php:53
+msgid "未知"
+msgstr ""
+
+#: includes/class-role-manager.php:63
+msgid "角色名称不能为空"
+msgstr ""
+
+#: includes/class-role-manager.php:67
+#: includes/class-role-manager.php:78
+#: includes/class-role-manager.php:199
+msgid "角色不存在"
+msgstr ""
+
+#: includes/class-role-manager.php:99
+msgid "角色标识只能使用小写字母、数字和下划线"
+msgstr ""
+
+#: includes/class-role-manager.php:103
+msgid "该角色标识已存在"
+msgstr ""
+
+#: includes/class-role-manager.php:139
+msgid "创建角色失败"
+msgstr ""
+
+#: includes/class-role-manager.php:144
+msgid "无法删除WordPress默认角色"
+msgstr ""
+
+#: includes/class-role-manager.php:194
+msgid "无法修改WordPress默认角色的权限"
+msgstr ""
+
+#: includes/class-role-manager.php:267
+msgid "无效的输入"
+msgstr ""
+
+#: includes/class-role-manager.php:349
+msgid "管理站点选项"
+msgstr ""
+
+#: includes/class-role-manager.php:350
+msgid "管理网络"
+msgstr ""
+
+#: includes/class-role-manager.php:351
+msgid "管理站点"
+msgstr ""
+
+#: includes/class-role-manager.php:352
+msgid "激活插件"
+msgstr ""
+
+#: includes/class-role-manager.php:353
+msgid "编辑插件"
+msgstr ""
+
+#: includes/class-role-manager.php:354
+msgid "编辑主题"
+msgstr ""
+
+#: includes/class-role-manager.php:355
+msgid "编辑文件"
+msgstr ""
+
+#: includes/class-role-manager.php:356
+msgid "更新插件"
+msgstr ""
+
+#: includes/class-role-manager.php:357
+msgid "删除插件"
+msgstr ""
+
+#: includes/class-role-manager.php:358
+msgid "安装插件"
+msgstr ""
+
+#: includes/class-role-manager.php:359
+msgid "更新主题"
+msgstr ""
+
+#: includes/class-role-manager.php:360
+msgid "删除主题"
+msgstr ""
+
+#: includes/class-role-manager.php:361
+msgid "安装主题"
+msgstr ""
+
+#: includes/class-role-manager.php:362
+msgid "更新核心"
+msgstr ""
+
+#: includes/class-role-manager.php:363
+msgid "导出内容"
+msgstr ""
+
+#: includes/class-role-manager.php:364
+msgid "导入内容"
+msgstr ""
+
+#: includes/class-role-manager.php:365
+msgid "创建用户"
+msgstr ""
+
+#: includes/class-role-manager.php:366
+msgid "删除用户"
+msgstr ""
+
+#: includes/class-role-manager.php:367
+msgid "提升用户"
+msgstr ""
+
+#: includes/class-role-manager.php:368
+msgid "移除用户"
+msgstr ""
+
+#: includes/class-role-manager.php:369
+msgid "未过滤上传"
+msgstr ""
+
+#: includes/class-role-manager.php:370
+msgid "未过滤HTML"
+msgstr ""
+
+#: includes/class-role-manager.php:371
+msgid "阅读"
+msgstr ""
+
+#: includes/class-role-manager.php:372
+msgid "编辑文章"
+msgstr ""
+
+#: includes/class-role-manager.php:373
+msgid "编辑他人文章"
+msgstr ""
+
+#: includes/class-role-manager.php:374
+msgid "编辑已发布文章"
+msgstr ""
+
+#: includes/class-role-manager.php:375
+msgid "编辑私密文章"
+msgstr ""
+
+#: includes/class-role-manager.php:376
+msgid "发布文章"
+msgstr ""
+
+#: includes/class-role-manager.php:377
+msgid "删除文章"
+msgstr ""
+
+#: includes/class-role-manager.php:378
+msgid "删除他人文章"
+msgstr ""
+
+#: includes/class-role-manager.php:379
+msgid "删除已发布文章"
+msgstr ""
+
+#: includes/class-role-manager.php:380
+msgid "删除私密文章"
+msgstr ""
+
+#: includes/class-role-manager.php:381
+msgid "阅读私密文章"
+msgstr ""
+
+#: includes/class-role-manager.php:382
+msgid "编辑页面"
+msgstr ""
+
+#: includes/class-role-manager.php:383
+msgid "编辑他人页面"
+msgstr ""
+
+#: includes/class-role-manager.php:384
+msgid "编辑已发布页面"
+msgstr ""
+
+#: includes/class-role-manager.php:385
+msgid "编辑私密页面"
+msgstr ""
+
+#: includes/class-role-manager.php:386
+msgid "发布页面"
+msgstr ""
+
+#: includes/class-role-manager.php:387
+msgid "删除页面"
+msgstr ""
+
+#: includes/class-role-manager.php:388
+msgid "删除他人页面"
+msgstr ""
+
+#: includes/class-role-manager.php:389
+msgid "删除已发布页面"
+msgstr ""
+
+#: includes/class-role-manager.php:390
+msgid "删除私密页面"
+msgstr ""
+
+#: includes/class-role-manager.php:391
+msgid "阅读私密页面"
+msgstr ""
+
+#: includes/class-role-manager.php:392
+msgid "上传文件"
+msgstr ""
+
+#: includes/class-role-manager.php:393
+msgid "审核评论"
+msgstr ""
+
+#: includes/class-role-manager.php:394
+msgid "管理分类"
+msgstr ""
+
+#: includes/class-role-manager.php:395
+msgid "管理链接"
+msgstr ""
+
+#: includes/class-role-manager.php:519
+msgid "角色不能继承自身"
+msgstr ""
+
+#: includes/class-role-manager.php:523
+msgid "父角色不存在"
+msgstr ""
+
+#: includes/class-role-manager.php:535
+msgid "检测到循环继承"
+msgstr ""
+
+#: includes/class-role-manager.php:545
+msgid "不能将父角色设为子角色"
+msgstr ""
+
+#: includes/class-logger.php:84
+msgid "创建角色"
+msgstr ""
+
+#: includes/class-logger.php:85
+msgid "删除角色"
+msgstr ""
+
+#: includes/class-logger.php:86
+msgid "重命名角色"
+msgstr ""
+
+#: includes/class-logger.php:87
+msgid "重置角色名称"
+msgstr ""
+
+#: includes/class-logger.php:88
+msgid "更新权限"
+msgstr ""
